@@ -1,0 +1,92 @@
+/*
+    You can write your coustom Css here
+    - Usman Kiyani
+
+*/
+
+
+
+a, a:hover,a:visited, a:focus {
+    text-decoration:none;
+    
+}
+
+
+/* Product Card */
+.product-card-show{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Product Card Hover Effect */
+.product-div2{
+    position:relative;
+    overflow:hidden;
+}
+.product-div2:hover .button-view{
+     top: 50%;
+     opacity:1;
+}
+.product-div2:hover img{
+    opacity:.8;
+}
+.button-view{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.transition{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+/* ADMIN TOOLBAR  */
+
+
+/* ADMIN LOGIN */
+
+.admin-bg{
+    background-color: #413F3F;
+}
+
+.admin-login-title{
+    color: white;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;    
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
